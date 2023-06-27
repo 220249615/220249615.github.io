@@ -1,7 +1,7 @@
 // 定義配對項目
 const items = [
 	{value: "密碼保護", id: 1},
-	{value: "雙因素認證", id: 2},
+	{value: "雙重認證", id: 2},
 	{value: "網上買賣要小心詐騙", id: 3},
 	{value: "保持網絡安全", id: 4},
 	{value: "不要隨便點擊不明來源的連結", id: 5},
@@ -13,7 +13,7 @@ const items = [
 // 複製配對項目並合併成一個新的陣列
 const items2 = [
 	{value: "私人或機密資料", id: 1},
-	{value: "雙因素認證", id: 2},
+	{value: "為每個賬戶設立", id: 2},
 	{value: "看到投資推薦信息時", id: 3},
 	{value: "無時無刻", id: 4},
 	{value: "收到可疑連結時", id: 5},
@@ -152,5 +152,4 @@ function endGame() {
 // 初始化遊戲
 initGame();
 
-// 監聽重新開始按鈕點擊		
-document.getElementById("restart-btn").addEventListener("click", restartGame);
+		
